@@ -1,12 +1,16 @@
 type Person = {
     name : string;
+    age : number;
+    country : string;
 }
 
-const person: Person ={
-    name : "Praise"
+const person: Person =  {
+    name : "Praise",
+    age : 20,
+    country : "Nigeria"
 }
 
-console.log(person.name);
+console.log(person.name, person.age, person.country);
 
 // annotations used to specifiy the data type of a varaible, parameter, function return and other type of values
 
